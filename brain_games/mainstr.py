@@ -14,6 +14,6 @@ def base(game):
             print('Correct!')
         else:
             print(f"""'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'.
-Let`s try again, {name}!""")
+Let's try again, {name}!""")
             return
     print(f'Congratulations, {name}!')
