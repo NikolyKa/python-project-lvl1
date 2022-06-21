@@ -3,7 +3,7 @@ from prompt import string
 
 def base(game):
     print("Welcome to the Brain Games!")
-    name = string('May i have your name? ')
+    name = string('May I have your name? ')
     print(f'Hello, {name}!')
     print(game.DESCRIPTION)
     for i in range(3):
