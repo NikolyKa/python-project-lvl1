@@ -1,10 +1,10 @@
 #!/usr/bin/env python
-from brain_games.mainstr import base
+from brain_games.mainstr import run
 from brain_games.games import calc
 
 
 def main():
-    base(calc)
+    run(calc)
 
 
 if __name__ == '__main__':
