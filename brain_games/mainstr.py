@@ -12,12 +12,12 @@ def run(game):
         correct_answer, question_text = game.start()
         print(f'Question: {question_text}')
         answer = string('Your answer: ')
-        wrong_answer = f"'{answer}' is wrong answer ;(. Correct answer was '{correct_answer}'."
+        wrong_answer = f"'{answer}' is wrong answer ;(."
+        correct_answer_text = f"Correct answer was '{correct_answer}'."
         if answer == correct_answer:
             print('Correct!')
         else:
-            print(wrong_answer)
+            print(f'{wrong_answer}{correct_answer_text}')
             print(f"Let's try again, {name}!")
             return
     print(f'Congratulations, {name}!')
-
