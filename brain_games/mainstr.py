@@ -1,6 +1,6 @@
 from prompt import string
 
-ROUNDS = 3
+ROUND_COUNT = 3
 
 
 def run(game):
