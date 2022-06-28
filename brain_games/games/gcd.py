@@ -15,5 +15,5 @@ def start():
         temp = first_num
     for i in range(1, temp + 1):
         if (first_num % i == 0) and (second_num % i == 0):
-            c_ans = str(i)
-    return c_ans, question_text
+            correct_answer = str(i)
+    return correct_answer, question_text

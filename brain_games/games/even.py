@@ -9,7 +9,7 @@ def start():
     num = randint(START, END)
     question_text = num
     if num % 2 == 0:
-        c_ans = 'yes'
+        correct_answer = 'yes'
     else:
-        c_ans = 'no'
-    return c_ans, question_text
+        correct_answer = 'no'
+    return correct_answer, question_text

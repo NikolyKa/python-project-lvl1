@@ -11,10 +11,10 @@ def start():
     second_num = randint(START, END)
     symbol = choice('*-+')
     if symbol == '+':
-        c_ans = str(first_num + second_num)
+        correct_answer = str(first_num + second_num)
     elif symbol == '*':
-        c_ans = str(first_num * second_num)
+        correct_answer = str(first_num * second_num)
     elif symbol == '-':
-        c_ans = str(first_num - second_num)
+        correct_answer = str(first_num - second_num)
     question_text = f'{first_num} {symbol} {second_num}'
-    return c_ans, question_text
+    return correct_answer, question_text
