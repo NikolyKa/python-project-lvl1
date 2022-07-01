@@ -7,7 +7,7 @@ build: #собирает программу
 publish: #публикует программу
 	poetry publish --dry-run
 package-install: #устанавливает пакет
-	python3 -m pip install --user dist/*.whl
+	python3 -m pip install --user --force-reinstall dist/*.whl
 lint: #проверяет код на чистоту
 	poetry run flake8 brain_games
 
