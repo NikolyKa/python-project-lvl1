@@ -11,7 +11,9 @@ It consists of four logic games.
 
 
 If you want to play these games, you can clone the git repository :
+
 $git clone https://github.com/NikolyKa/python-project-lvl1.git
+
 To start the game you need to run following commands:
 
 $ cd python-project-lvl1 
