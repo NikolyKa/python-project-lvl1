@@ -4,8 +4,10 @@
 
 
 
-This is my first project. Welcome to the "Brain-games"!
-It consists of four logic games.
+Welcome to the "Brain-games"!
+
+This is my first project.
+It consists of five logic games.
 
 [![asciicast](https://asciinema.org/a/vF9ByYVpd9dAHRKZPwVF5ipkG.svg)](https://asciinema.org/a/vF9ByYVpd9dAHRKZPwVF5ipkG)
 
@@ -16,7 +18,7 @@ $git clone https://github.com/NikolyKa/python-project-lvl1.git
 
 To start the game you need to run following commands:
 
-$ cd python-project-lvl1 
+$ cd python-project-lvl
 
 $ poetry install
 
