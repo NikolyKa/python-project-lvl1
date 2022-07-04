@@ -8,6 +8,8 @@ END_STEP_NUM = 10
 FIRST_INDEX = 0
 LAST_INDEX = 9
 NUMBER_OF_VARIABLES = 10
+
+
 def start():
     first_num = randint(START_FIRST_NUM, END_FIRST_NUM)
     step_num = randint(START_STEP_NUM, END_STEP_NUM)
